@@ -11,6 +11,8 @@
 
 namespace SeoThemes\GenesisStarterTheme\Structure;
 
+return;
+
 \add_action( 'genesis_meta', __NAMESPACE__ . '\front_page_loop', 5 );
 /**
  * Only add hooks if were on the front page.

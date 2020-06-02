@@ -13,12 +13,12 @@
 	justify-content: center;
 	width: 100%;
 	padding: $spacing--l 0;
-	border-bottom: $base--border;
 	background-position: center;
 	background-size: cover;
 	text-align: center;
+	color: $color--white;
 
-	@include overlay;
+	@include gradient();
 
 	@include mq(m) {
 		padding: $spacing--xl 0;
@@ -32,6 +32,7 @@
 	h1 {
 		width: 100%;
 		margin-bottom: 0;
+		color: $color--white;
 	}
 
 	p {

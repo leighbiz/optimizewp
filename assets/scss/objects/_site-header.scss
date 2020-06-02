@@ -7,10 +7,9 @@
 ////
 
 .site-header {
-	position: relative;
+	position: absolute;
 	z-index: 10;
-	border-bottom: $base--border;
-	background-color: $color--white;
+	border-bottom: 1px solid rgba(255,255,255,0.15);
 
 	.wrap {
 		display: flex;

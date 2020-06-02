@@ -147,6 +147,7 @@
 	font-family: $font-family--heading;
 	font-weight: $font-weight--heading;
 	line-height: $line-height--heading;
+	color: $color--heading;
 }
 
 ////
@@ -222,8 +223,7 @@
 	border: 0;
 	border-radius: $base--border--radius;
 	color: $color--white;
-	background-color: $color--primary;
-	font-size: $base--font-size / $major-second;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$color--secondary}', endColorstr='#{$color--primary}', GradientType=1);
 	font-weight: $font-weight--heading;
 	line-height: 1;
 	text-align: center;
@@ -232,6 +232,8 @@
 	cursor: pointer;
 
 	@include transition();
+
+	@include gradient();
 
 	@include hover-focus {
 		outline: none;
@@ -258,6 +260,11 @@
 
 	&.rounded {
 		border-radius: 10rem;
+	}
+
+	&.white {
+		background: $color--white;
+		color: $color--heading;
 	}
 
 	&.outline {
@@ -297,4 +304,11 @@
 			margin-left: $spacing--s;
 		}
 	}
+}
+
+@mixin gradient() {
+	background-color: $color--primary;
+	background: -moz-linear-gradient(-45deg, #{$color--secondary} 0%, #{$color--primary} 100%);
+	background: -webkit-linear-gradient(-45deg, #{$color--secondary} 0%, #{$color--primary} 100%);
+	background: linear-gradient(135deg, #{$color--secondary} 0%, #{$color--primary} 100%);
 }

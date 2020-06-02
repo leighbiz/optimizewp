@@ -17,18 +17,6 @@ return [
 	'add'    => [
 		'align-wide',
 		'automatic-feed-links',
-		'custom-header'            => [
-			'header-selector'  => '.hero-section',
-			'default_image'    => get_theme_url() . 'assets/img/hero.jpg',
-			'header-text'      => false,
-			'width'            => 1280,
-			'height'           => 720,
-			'flex-height'      => true,
-			'flex-width'       => true,
-			'uploads'          => true,
-			'video'            => true,
-			'wp-head-callback' => __NAMESPACE__ . '\Functions\header',
-		],
 		'editor-styles',
 		'front-page-widgets'       => 5,
 		'genesis-accessibility'    => [
@@ -41,8 +29,6 @@ return [
 		],
 		'genesis-after-entry-widget-area',
 		'genesis-custom-logo'      => [
-			'height'      => 60,
-			'width'       => 120,
 			'flex-height' => true,
 			'flex-width'  => true,
 			'header-text' => [

@@ -51,6 +51,7 @@
 // Custom logo.
 .custom-logo {
 	width: auto;
+	filter: brightness(200);
 
 	&-link {
 		display: flex;

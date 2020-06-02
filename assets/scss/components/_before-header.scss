@@ -7,11 +7,12 @@
 ////
 
 .before-header {
-	padding: $spacing--s 0;
-	border-bottom: $base--border;
-	background-color: $color--background;
+	padding: 1em 0;
+	color: $color--white;
+	background-color: $color--heading;
 	font-size: small;
 	line-height: 1;
+	text-align: center;
 
 	.wrap {
 		align-items: center;

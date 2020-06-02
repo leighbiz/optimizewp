@@ -9,12 +9,12 @@
 // Font sizes
 $base--font-size: 1.6rem;
 
-$font-size--h1: 2.3em;
-$font-size--h2: 1.8em;
-$font-size--h3: 1.5em;
-$font-size--h4: 1.3em;
-$font-size--h5: 1.2em;
-$font-size--h6: 1.1em;
+$font-size--h1: 3em;
+$font-size--h2: 1.5em;
+$font-size--h3: 1.3em;
+$font-size--h4: 1.2em;
+$font-size--h5: 1.1em;
+$font-size--h6: 1em;
 
 $font-sizes: (
 	h1: $font-size--h1,
@@ -26,9 +26,9 @@ $font-sizes: (
 );
 
 // Font families
-$base--font-family: $font-stack-system;
+$base--font-family: "OptimizeWP", $font-stack-system;
 
-$font-family--heading: $base--font-family;
+$font-family--heading: "OptimizeWP", $font-stack-system;
 $font-family--code: $font-stack-consolas;
 
 // Font weights
@@ -40,7 +40,7 @@ $font-weight--semibold: 600;
 $font-weight--bold: 700;
 
 $base--font-weight: $font-weight--regular;
-$font-weight--heading: $font-weight--semibold;
+$font-weight--heading: $font-weight--medium;
 
 // Line height
 $base--line-height: modular-scale(0, $golden);

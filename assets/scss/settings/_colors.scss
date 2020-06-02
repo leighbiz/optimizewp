@@ -7,7 +7,7 @@
 ////
 
 // Palette
-$color--blue: #007bff;
+$color--blue: #0c47f0;
 $color--indigo: #6610f2;
 $color--purple: #6f42c1;
 $color--pink: #e83e8c;
@@ -19,34 +19,34 @@ $color--teal: #20c997;
 $color--cyan: #17a2b8;
 
 // Grayscale
+$color--black: #2b303d;
+$color--gray-900: lighten($color--black, 10%);
+$color--gray-800: lighten($color--black, 20%);
+$color--gray-700: lighten($color--black, 30%);
+$color--gray-600: lighten($color--black, 40%);
+$color--gray-500: lighten($color--black, 50%);
+$color--gray-400: lighten($color--black, 60%);
+$color--gray-300: lighten($color--black, 70%);
+$color--gray-200: lighten($color--black, 80%);
+$color--gray-100: lighten($color--black, 90%);
 $color--white: #fff;
-$color--gray-100: #f8f9fa;
-$color--gray-200: #e9ecef;
-$color--gray-300: #dee2e6;
-$color--gray-400: #ced4da;
-$color--gray-500: #adb5bd;
-$color--gray-600: #6c757d;
-$color--gray-700: #495057;
-$color--gray-800: #343a40;
-$color--gray-900: #212529;
-$color--black: #000;
 
 // Theme
-$color--primary: $color--blue;
-$color--secondary: $color--gray-600;
+$color--primary: #0c47f0;
+$color--secondary: #0078ff;
 $color--success: $color--green;
 $color--info: $color--blue;
 $color--warning: $color--yellow;
 $color--error: $color--red;
-$color--light: $color--gray-100;
+$color--light: $color--gray-300;
 $color--medium: $color--gray-500;
-$color--dark: $color--gray-800;
-$color--heading: $color--gray-800;
-$color--text: $color--gray-700;
-$color--border: $color--gray-200;
-$color--background: $color--gray-100;
+$color--dark: $color--black;
+$color--heading: $color--black;
+$color--text: $color--gray-800;
+$color--border: $color--gray-300;
+$color--background: $color--gray-300;
 $color--muted: $color--gray-400;
-$color--overlay: rgba($color--gray-100, 0.9);
+$color--overlay: rgba($color--gray-300, 0.15);
 
 // Social
 $color--dribbble: #ea4c89;

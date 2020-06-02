@@ -17,7 +17,7 @@ body {
 	line-height: $base--line-height;
 
 	@include mq(m) {
-		font-size: $base--font-size * strip-unit(map_get($font-sizes, h6));
+		font-size: $base--font-size * strip-unit(map_get($font-sizes, h5));
 	}
 }
 

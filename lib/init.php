@@ -72,6 +72,8 @@ namespace SeoThemes\GenesisStarterTheme;
 		'shortcodes/hook',
 		'shortcodes/search-form',
 		'shortcodes/widget-area',
+		'shortcodes/icon',
+		'shortcodes/template-part',
 
 		// Plugins.
 		'plugins/gravity-forms',
