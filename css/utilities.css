@@ -1,0 +1,18 @@
+.alignfull {
+	width: 100vw;
+	margin-left: calc(50% - 50vw);
+}
+
+.has-gradient {
+	background-color: var(--color-primary);
+	background: linear-gradient(135deg, var(--color-secondary), var(--color-primary));
+}
+
+.has-spacing {
+	padding-top: var(--spacing);
+	padding-bottom: var(--spacing)
+}
+
+.text-center {
+	text-align: center;
+}

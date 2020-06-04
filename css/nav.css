@@ -1,0 +1,15 @@
+.menu {
+	margin: 0;
+	font-size: 1.6rem;
+}
+
+.menu-item {
+	display: block;
+	line-height: 1;
+}
+
+.menu-item-link {
+	padding: 1em;
+	color: var(--menu-item-link-color, #fff);
+	text-decoration: none;
+}

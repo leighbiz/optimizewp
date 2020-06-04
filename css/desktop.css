@@ -1,0 +1,13 @@
+@media (min-width: 896px) {
+	body {
+		font-size: 1.8rem;
+	}
+
+	.menu {
+		display: flex;
+	}
+
+	.has-button {
+		margin-left: 1em;
+	}
+}
